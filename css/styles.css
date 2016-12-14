@@ -18,10 +18,10 @@ html {
 }
 
 /** SAME COLOR GROUPS **/
-body, #homePage div.jumbotron, #helpPage div.panel {
+body, #homePage div.jumbotron {
     background-color: #7EDAFF;
 }
-#helpPage div.panel, #helpPage div.panel-heading {
+#helpPage div.panel {
     background-color: #BF7EFF;
 }
 hr {
@@ -45,24 +45,34 @@ h1, h2, h3 {
 /***************/
 ul.navbar-nav > .active > a {
     background-color: #71FF73 !important;
+    border-radius: 20px;
+}
+footer {
+    padding-top: 5px;
+    background-color: #71FF73;
 }
 /***************/
 ul.navbar-nav a {
     font-size: 20px;
     color: #6776E8 !important;
 }
-
+/** Alternating Colors for help.html**/
 #helpPage div.list-group > a:nth-child(even) {
     background-color: #67E8BC;
 }
 #helpPage div.list-group > a:nth-child(odd) {
     background-color: #7EDAFF;
 }
-
-footer {
-    padding-top: 5px;
-    background-color: #71FF73;
+#helpPage div.list-group h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
 }
+#helpPage div.list-group p {
+    margin-left: 20px;
+}
+
+/** END Color Section **/
+
 
 footer {
     height: 100px;
@@ -70,6 +80,7 @@ footer {
 
 footer a {
     margin-left: 3%;
+    color: #6776E8;
 }
 
 footer a:first-child {
@@ -78,16 +89,13 @@ footer a:first-child {
     
 footer p {
     font-size: 1.3em;
+    font-weight: 600;
 }
 
-#footer-social {
-    /*float: right;*/
-}
 
 #footer-social a i:hover {
     opacity: 0.5;
-    /*color: black;*/
-    color: #6776E8;
+    color: black;
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari */
     transform: scale(1.5);
