@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACME Inc.</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-theme.css">-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+
+            <!-- Long / Wide Navigation Bar -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!-- Create Hamburger Icon -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bootstrap-navbar" aria-expanded="false">
+                    <span class="sr-only">
+                        Toggle Navigation
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">
+                    <!-- <img alt="Brand" src="..."> -->
+                    <span class="glyphicon glyphicon-leaf"></span>
+                </a>
+            </div>
+
+            <!-- Nav Menu Links (also appears in Hamburger Menu) -->
+            <div class="navbar-collapse collapse" id="bootstrap-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Get Involved!</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div> <!-- /.nav-collapse -->
+
+        </div> <!-- /.container -->
+    </nav>
+
+    <main>
+        <div class="container" id="contactPage">
+            <div class="">
+                <h1>Contact Us</h1>
+            </div>
+            <div id="locationInfo">
+                <div class="row">
+                    <div class="col-sm-2 col-xs-hidden"></div>
+                    <div class="col-xs-12 col-sm-8">
+                        <p>ACME Inc. is located in the beautiful city of Billund, Denmark, with various satellite offices throughout the world, including Atlantis.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div style="text-align: center;">
+                        <a href="https://goo.gl/maps/dBkKvahwqu42" title="Click to view the Google Street-View">
+                            <img src="https://maps.googleapis.com/maps/api/staticmap?center=55.733038,9.121735&zoom=17&size=600x300&scale=2&maptype=hybrid&markers=color:yellow%7Clabel:A%7C55.733038,9.121735&key=AIzaSyDss3EnGTAUVgz6kQX1R4YkTWSGD6zfilA">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <form role="form" id="contactForm">
+                <div class="row">
+                    <div class="form-group has-feedback">
+                        <div class="col-sm-3 col-lg-4 col-xs-hidden"></div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4 input-group">
+                            <span class="input-group-addon expand-input-group"><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" />
+                        </div>
+                        <div class="col-sm-3 col-md-2 col-xs-hidden"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group has-feedback">
+                        <div class="col-sm-3 col-lg-4 col-xs-hidden"></div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4 input-group">
+                            <span class="input-group-addon expand-input-group"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="E-Mail" title="E-Mail" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group has-feedback">
+                        <div class="col-sm-3 col-lg-4 col-xs-hidden"></div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4 input-group">
+                            <span class="input-group-addon expand-input-group"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone Number (nnn-nnn-nnnn)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group has-feedback">
+                        <div class="col-sm-3 col-lg-4 col-xs-hidden"></div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4 input-group">
+                            <span class="input-group-addon expand-input-group"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+                            <textarea id="description" name="description" class="form-control" placeholder="Enter your message here"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="buttonArea">
+                    <button name="submitComment" id="submitComment" type="submit" class="btn btn-success">Send Message</button>      
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <div class="footerGap"></div>
+
+    <footer class="footer">
+
+        <hr />
+        <div class="container">
+            <div class="col-sm-8 xs-center">
+                <!--<div class="col-sm-8 col-xs-7 col-sm-offset-0 col-xs-offset-5 ">-->
+                <p>&copy;
+                    <time datetime="2016">2016</time> ACME Inc.</p>
+            </div>
+            <div id="footer-social" class="col-sm-4 xs-center ">
+                <!--<div id="footer-social" class="col-sm-4 col-xs-8 col-sm-offset-0 col-xs-offset-4 ">-->
+                <a href="https://facebook.com"><i class="fa fa-3x fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com"><i class="fa fa-3x fa-google-plus-official" aria-hidden="true"></i></a>
+                <!--                <a href="https://instagram.com"><i class="fa fa-3x fa-instagram" aria-hidden="true"></i></a>-->
+                <a href="https://youtube.com"><i class="fa fa-3x fa-youtube" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

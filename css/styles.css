@@ -1,0 +1,146 @@
+/*
+Analogous Color Scheme: 
+https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=2&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.7480247612005158,0.49392261644502444,1,0.4038491693041264,0.46257217331141387,0.91,0.4932107541644867,0.8563360642265455,1,0.40332178628968285,0.91,0.7372479465877954,0.44321075416448663,1,0.45057499663616996&swatchOrder=0,1,2,3,4
+
+Approximate Colors:
+Purple      #BF7EFF;
+DarkBlue    #6776E8;
+LightBlue   #7EDAFF;
+Teal        #67E8BC;
+Lime        #71FF73;
+
+*/
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Lato", "Tahoma", "Verdana", sans-serif;    
+}
+
+/** SAME COLOR GROUPS **/
+body, #homePage div.jumbotron, #helpPage div.panel {
+    background-color: #7EDAFF;
+}
+#helpPage div.panel, #helpPage div.panel-heading {
+    background-color: #BF7EFF;
+}
+hr {
+    border-top: #7EDAFF;
+}
+nav.navbar {
+    background-color: #7EDAFF;
+    border-color: #7EDAFF;
+}
+div.page-header {
+    border-bottom: 3px solid #7EDAFF;
+}
+/***************/
+.jumbotron h1 {
+    color: #BF7EFF;
+}
+h1, h2, h3 {
+    font-family: "Droid Serif", "Georgia", "Times New Roman", serif;
+    color: #BF7EFF;
+}
+/***************/
+ul.navbar-nav > .active > a {
+    background-color: #71FF73 !important;
+}
+/***************/
+ul.navbar-nav a {
+    font-size: 20px;
+    color: #6776E8 !important;
+}
+
+#helpPage div.list-group > a:nth-child(even) {
+    background-color: #67E8BC;
+}
+#helpPage div.list-group > a:nth-child(odd) {
+    background-color: #7EDAFF;
+}
+
+footer {
+    padding-top: 5px;
+    background-color: #71FF73;
+}
+
+footer {
+    height: 100px;
+}
+
+footer a {
+    margin-left: 3%;
+}
+
+footer a:first-child {
+    margin-left: 0;
+}
+    
+footer p {
+    font-size: 1.3em;
+}
+
+#footer-social {
+    /*float: right;*/
+}
+
+#footer-social a i:hover {
+    opacity: 0.5;
+    /*color: black;*/
+    color: #6776E8;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari */
+    transform: scale(1.5);
+}
+
+.footerGap {
+    height: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .xs-center {
+        text-align: center;
+    }
+}
+
+#helpPage h1 {
+    text-align: center;
+}
+
+/* Makes icon space to LEFT of input boxes consistent */
+.expand-input-group {
+    width: 50px;
+}
+
+#homePage #infoTab {
+    height: 200px;
+}
+
+#homePage #infoTab h3 {
+    text-align: center;
+}
+
+#contactPage, #homePage {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#contactPage h1 {
+    text-align: center;
+}
+
+#contactPage img {
+    max-width: 600px;
+}
+
+#contactForm {
+    margin-top: 5%;
+}
+
+#contactForm #buttonArea {
+    text-align: center;
+}
+
+#contactForm {
+    text-align: center;
+}
