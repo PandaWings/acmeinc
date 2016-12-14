@@ -57,14 +57,12 @@ ul.navbar-nav a {
     color: #6776E8 !important;
 }
 /** Alternating Colors for help.html**/
-/***
 #helpPage div.list-group > a:nth-child(even) {
     background-color: #67E8BC;
 }
 #helpPage div.list-group > a:nth-child(odd) {
     background-color: #7EDAFF;
 }
-***/
 #helpPage div.list-group h4 {
     font-weight: bold;
     margin-bottom: 20px;
